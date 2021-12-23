@@ -6,8 +6,8 @@ The data used in the following graph was extracted from [ICEX][1] and [Datacomex
 
 ![imports_exports](images/imports_exports.png)
 
-The graph condenses this information:
- * Percentage of Spain trade with US relative to the total foreing trade in Spain as a function of time (x and y axes)
+This graph condenses the following information:
+ * Percentage of Spain trade with US relative to the total foreing trade in Spain as a function of time (x and y axes, respectively)
  * Volume of money involved in the trade (circle size)
  * Proportion of import vs export (proportion of red and blue in the circles)
 
@@ -19,10 +19,8 @@ From the graph it is seen that the trading volume between US and Spain has incre
 
 ## Mechanical tests
 
-Sensors are placed along a specimen and a loading-unloading cycle is applied. To visualize the deformation (strain) upon loading, the following plots are generated.
+Sensors are placed along a specimen and loading-unloading cycles are applied. To visualize the specimen deformation (strain) upon loading, the following plot was generated.
 
 ![strain_profile_vs_time](images/strain_profile_vs_time.png)
 
-Load peaks (blue curve) mostly coincide with strain peaks (read zones). In the first part of the test, sensors failed quite greatly as seen by the white regions. Throught the test, some sensors got stuck in over-compressed or over-strecthed values as denoted by the red and blue horizontal lines.
-
-The hysteresis curve during loading-unloading suffered two important anomalies, as shown in the following graph. First, the horizontal loop that occurs during the compression stage. Second, negative hysteresis (note that as time goes by the curve gets darker, and it is seen that the unloading curves tend to lie behind the loading curves) which does not make physical sense. 
+Load peaks (top graph) coincide with strain peaks in two central areas of the specimen (red zones in bottom graph). In the first part of the test, many sensors failed to acquire data (white regions). Throughout the test, some sensors got stuck in over-compressed or over-stretched values (red and blue horizontal lines).
